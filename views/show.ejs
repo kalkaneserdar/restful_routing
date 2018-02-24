@@ -1,0 +1,12 @@
+<% include partials/header %>
+
+<div id="post" class="ui raised very padded text container segment">
+    <h2 class="ui header"><%= blog.title %></h2>
+    <img class="ui rounded fluid image" src="<%= blog.image %>">
+    <p><%= blog.created.toDateString() %></p>
+    <p><%- blog.body %></p>
+    <a class="ui violet big button" href="/blogs">Go Back</a><a class="ui blue big button" href="/blogs/<%= blog._id %>/edit">Edit</a>
+
+</div>
+
+<% include partials/footer %>

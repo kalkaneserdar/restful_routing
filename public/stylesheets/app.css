@@ -1,0 +1,26 @@
+body {
+    
+    margin: 75px 0 0 0;
+}
+
+i.icon {
+    
+    font-size: 2em;
+}
+
+#post {
+    
+    margin: 0 auto;
+    width: 50%;
+}
+
+.ui.footer.segment {
+    
+    margin: 25px 0 0 0;
+}
+
+/*#new-post, #existing-post, #edit-post {*/
+    
+/*    margin: 0 auto;*/
+/*    width: 50%;*/
+/*}*/
